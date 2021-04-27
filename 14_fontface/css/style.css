@@ -1,0 +1,11 @@
+@font-face {
+	src: url(../font/Rubik-Bold.ttf);
+	font-family: 'Rubik';
+	font-weight: bold;
+}
+
+.heading h1{
+	font-family: Rubik;
+	font-size: 32px;
+	font-weight: bold;
+}
