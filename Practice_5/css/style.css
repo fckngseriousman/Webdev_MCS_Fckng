@@ -31,18 +31,14 @@ footer p{
 	font-family: Arial;
 }
 
-main{
-	position: relative;
-}
-
 .column{
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	width: 326px;
 	padding: 32px;
-	float: left;
 	margin-left: 40px;
 	margin-top: 48px;
+	display: inline-block;
 }
 
 .columnFirst{
