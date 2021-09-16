@@ -15,7 +15,7 @@ header{
 	background-color: #FE1A19;
 }
 
-header p{
+.brand{
 	color: white;
 	font-size: 20px;
 	font-style: normal;
@@ -33,7 +33,7 @@ footer{
 	bottom: 0px;
 }
 
-footer p{
+.copyright{
 	color: white;
 	font-size: 20px;
 	font-style: normal;
@@ -53,37 +53,7 @@ footer p{
 	display: inline-block;
 }
 
-.columnFirst{
-	border: 5px solid #E5E000;
-	border-radius: 30px;
-	width: 326px;
-	padding: 32px;
-	position: absolute;
-	top: 52px;
-	left: 70px;
-}
-
-.columnSecond{
-	border: 5px solid #E5E000;
-	border-radius: 30px;
-	width: 326px;
-	padding: 32px;
-	position: absolute;
-	top: 52px;
-	left: 520px;
-}
-
-.columnThird{
-	border: 5px solid #E5E000;
-	border-radius: 30px;
-	width: 326px;
-	padding: 32px;
-	position: absolute;
-	top: 52px;
-	left: 970px;
-}
-
-p.title{
+.title{
 	color: black;
 	font-size: 20px;
 	font-style: normal;
@@ -91,13 +61,13 @@ p.title{
 	font-family: Arial;
 }
 
-p.text{
+.text{
 	font-family: Times;
 	margin-top: 40px;
 	font-size: 20px;
 	line-height: 23px;
 }
 
-p.lititle{
+.lititle{
 	margin-top: 24px;
 }
