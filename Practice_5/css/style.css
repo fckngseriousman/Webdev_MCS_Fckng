@@ -1,8 +1,10 @@
 @import url(reset.css);
 
 body{
+	position: relative;
 	min-height: 100vh;
 }
+
 
 header{
 	height: 60px;
@@ -24,6 +26,8 @@ footer{
 	height: 60px;
 	width: 100%;
 	background-color: #FE1A19;
+	position: absolute;
+	bottom: 0px;
 }
 
 footer p{
@@ -42,6 +46,7 @@ footer p{
 	padding: 32px;
 	margin-left: 40px;
 	margin-top: 48px;
+	font-size: 20px;
 	display: inline-block;
 }
 
@@ -88,4 +93,8 @@ p.text{
 	margin-top: 40px;
 	font-size: 20px;
 	line-height: 23px;
+}
+
+p.lititle{
+	margin-top: 24px;
 }
